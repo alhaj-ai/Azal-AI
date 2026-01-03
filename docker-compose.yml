@@ -1,0 +1,23 @@
+services:
+  azal-ai:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: azal-ai:latest
+    container_name: azal-ai-platform
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - ACTIVE_LLM_PROVIDER=${ACTIVE_LLM_PROVIDER:-lmstudio}
+      - LMSTUDIO_BASE_URL=${LMSTUDIO_BASE_URL:-http://host.docker.internal:1234/v1}
+      - LMSTUDIO_MODEL=${LMSTUDIO_MODEL:-gemma-4-e2b-it}
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+      - DEEPSEEK_API_KEY=${DEEPSEEK_API_KEY:-}
+      - GROQ_API_KEY=${GROQ_API_KEY:-}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ./storage/invoices:/app/storage/invoices
+      - ./config:/app/config

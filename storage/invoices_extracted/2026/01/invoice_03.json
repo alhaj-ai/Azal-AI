@@ -1,0 +1,28 @@
+{
+  "vendor_name": "شركة الشحن والتغليف السريع - صنعاء",
+  "invoice_date": "2026-01-22",
+  "subtotal": 450000.0,
+  "vat_amount": 0.0,
+  "total": 450000.0,
+  "line_items": [
+    {
+      "description": "كراتين شحن مقوى ومواد تغليف هوائية للطلبات",
+      "quantity": 1500,
+      "unit_price": 200.0,
+      "total": 300000.0
+    },
+    {
+      "description": "بوليصات شحن وتوصيل للمحافظات (دفعة شحن)",
+      "quantity": 1,
+      "unit_price": 150000.0,
+      "total": 150000.0
+    }
+  ],
+  "validation": {
+    "valid": true,
+    "issues": [],
+    "calculated_rate": 0.0,
+    "expected_total": 450000.0
+  },
+  "source_invoice_id": "invoice_03"
+}

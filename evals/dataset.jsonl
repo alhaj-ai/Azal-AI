@@ -1,0 +1,5 @@
+{"query": "متى تفتحون يوم الجمعة؟", "intent": "hours"}
+{"query": "هل تشحنون للإمارات؟", "intent": "shipping"}
+{"query": "أخبروني عن حبوب الخولاني", "intent": "product_khawlani_known_issue"}
+{"query": "ما هي طرق الدفع المتاحة؟", "intent": "payment"}
+{"query": "هل لديكم برامج ولاء؟", "intent": "loyalty"}

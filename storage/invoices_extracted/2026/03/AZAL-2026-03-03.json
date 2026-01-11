@@ -1,0 +1,22 @@
+{
+  "invoice_id": "AZAL-2026-03-03",
+  "vendor_name": "شركة الشحن والتغليف السريع - صنعاء",
+  "vendor_address": "المركز الرئيسي - صنعاء / حضرموت",
+  "invoice_date": "2026-03-19",
+  "subtotal": 450000.0,
+  "vat_amount": 0.0,
+  "total_amount": 450000.0,
+  "currency": "ر.ي",
+  "line_items": [
+    {
+      "description": "خدمات شحن بضائع وتغليف كراتين التجزئة",
+      "quantity": 150,
+      "unit_price": 3000.0,
+      "total": 450000.0
+    }
+  ],
+  "vat_validation": {
+    "valid": true,
+    "issues": []
+  }
+}

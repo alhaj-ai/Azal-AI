@@ -1,0 +1,22 @@
+{
+  "invoice_id": "AZAL-2026-02-04",
+  "vendor_name": "ورش الفضيات والعقيق الصنعاني",
+  "vendor_address": "المركز الرئيسي - صنعاء / حضرموت",
+  "invoice_date": "2026-02-22",
+  "subtotal": 980000.0,
+  "vat_amount": 0.0,
+  "total_amount": 980000.0,
+  "currency": "ر.ي",
+  "line_items": [
+    {
+      "description": "صياغة وتجهيز خواتم وفضيات يمنية تراثية",
+      "quantity": 200,
+      "unit_price": 4900.0,
+      "total": 980000.0
+    }
+  ],
+  "vat_validation": {
+    "valid": true,
+    "issues": []
+  }
+}

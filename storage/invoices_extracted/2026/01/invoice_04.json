@@ -1,0 +1,22 @@
+{
+  "vendor_name": "ورش الفضيات والعقيق الصنعاني",
+  "invoice_date": "2026-01-28",
+  "subtotal": 980000.0,
+  "vat_amount": 0.0,
+  "total": 980000.0,
+  "line_items": [
+    {
+      "description": "خواتم وقلائد عقيق يماني كبدي مصاغة بفضة عيار 925",
+      "quantity": 20,
+      "unit_price": 49000.0,
+      "total": 980000.0
+    }
+  ],
+  "validation": {
+    "valid": true,
+    "issues": [],
+    "calculated_rate": 0.0,
+    "expected_total": 980000.0
+  },
+  "source_invoice_id": "invoice_04"
+}

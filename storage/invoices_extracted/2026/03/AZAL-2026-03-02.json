@@ -1,0 +1,22 @@
+{
+  "invoice_id": "AZAL-2026-03-02",
+  "vendor_name": "مزارع بني يافع للبن الأخضر",
+  "vendor_address": "المركز الرئيسي - صنعاء / حضرموت",
+  "invoice_date": "2026-03-16",
+  "subtotal": 1720000.0,
+  "vat_amount": 0.0,
+  "total_amount": 1720000.0,
+  "currency": "ر.ي",
+  "line_items": [
+    {
+      "description": "توريد محصول بن يافعي درجة أولى قطاف يدوي",
+      "quantity": 100,
+      "unit_price": 17200.0,
+      "total": 1720000.0
+    }
+  ],
+  "vat_validation": {
+    "valid": true,
+    "issues": []
+  }
+}

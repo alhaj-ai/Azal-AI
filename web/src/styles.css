@@ -1,0 +1,1654 @@
+/* ========================================================
+   THMANYAH FONT FAMILY IMPORT (@font-face) - BOLD OPTIMIZED
+   ======================================================== */
+@font-face {
+  font-family: "Thmanyah Sans";
+  src: url("/fonts/thmanyahsans-Bold.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Thmanyah Sans";
+  src: url("/fonts/thmanyahsans-Bold.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Thmanyah Sans";
+  src: url("/fonts/thmanyahsans-Bold.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Thmanyah Sans";
+  src: url("/fonts/thmanyahsans-Bold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Thmanyah Sans";
+  src: url("/fonts/thmanyahsans-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Thmanyah Sans";
+  src: url("/fonts/thmanyahsans-Black.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Thmanyah Sans";
+  src: url("/fonts/thmanyahsans-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Thmanyah Sans Bold";
+  src: url("/fonts/thmanyahsans-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Thmanyah Sans Bold";
+  src: url("/fonts/thmanyahsans-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Thmanyah Serif";
+  src: url("/fonts/thmanyahserifdisplay-Bold.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Thmanyah Serif";
+  src: url("/fonts/thmanyahserifdisplay-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Thmanyah Serif";
+  src: url("/fonts/thmanyahserifdisplay-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Thmanyah Serif Bold";
+  src: url("/fonts/thmanyahserifdisplay-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Thmanyah Serif Bold";
+  src: url("/fonts/thmanyahserifdisplay-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ========================================================
+   THEME VARIABLES (LIGHT & DARK DUAL THEME)
+   ======================================================== */
+:root,
+body.theme-light {
+  --bg-app: #f8fafc;
+  --bg-sidebar: #ffffff;
+  --bg-header: rgba(255, 255, 255, 0.92);
+  --bg-surface: #ffffff;
+  --bg-card: #ffffff;
+  --bg-hover: #f1f5f9;
+  --bg-input: #ffffff;
+  
+  --text-primary: #0f172a;
+  --text-secondary: #334155;
+  --text-muted: #64748b;
+  --text-inverse: #ffffff;
+  
+  --brand-primary: #0f172a;
+  --brand-primary-hover: #1e293b;
+  --brand-accent: #d97706;
+  --brand-emerald: #059669;
+  --brand-rose: #e11d48;
+  --brand-blue: #2563eb;
+
+  --border-subtle: #e2e8f0;
+  --border-strong: #cbd5e1;
+  --border-focus: #0f172a;
+  
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.02);
+  --shadow-md: 0 8px 24px -4px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 16px 36px -6px rgba(0, 0, 0, 0.08);
+
+  --grid-color: rgba(15, 23, 42, 0.04);
+  color-scheme: light;
+}
+
+body.theme-dark {
+  --bg-app: #080a0f;
+  --bg-sidebar: #0e111a;
+  --bg-header: rgba(14, 17, 26, 0.92);
+  --bg-surface: #121622;
+  --bg-card: #121622;
+  --bg-hover: #1a2030;
+  --bg-input: #0e111a;
+  
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+  --text-inverse: #080a0f;
+  
+  --brand-primary: #ffffff;
+  --brand-primary-hover: #e2e8f0;
+  --brand-accent: #f59e0b;
+  --brand-emerald: #10b981;
+  --brand-rose: #f43f5e;
+  --brand-blue: #3b82f6;
+
+  --border-subtle: rgba(255, 255, 255, 0.09);
+  --border-strong: rgba(255, 255, 255, 0.16);
+  --border-focus: #ffffff;
+  
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 8px 24px -4px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 16px 36px -6px rgba(0, 0, 0, 0.6);
+
+  --grid-color: rgba(255, 255, 255, 0.04);
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* ========================================================
+   ANIMATED GRID DRIFT BACKGROUND
+   ======================================================== */
+@keyframes gridDrift {
+  0% {
+    background-position: 0 0, 0 0, 0 0;
+  }
+  100% {
+    background-position: 0 0, 36px 36px, 36px 36px;
+  }
+}
+
+body {
+  margin: 0;
+  direction: rtl;
+  color: var(--text-primary);
+  background-color: var(--bg-app);
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(0, 0, 0, 0.02) 0%, transparent 65%),
+    linear-gradient(to right, var(--grid-color) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--grid-color) 1px, transparent 1px);
+  background-size: 100% 100%, 36px 36px, 36px 36px;
+  animation: gridDrift 28s linear infinite;
+  min-height: 100vh;
+  font-family: "Thmanyah Sans Bold", "Thmanyah Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 15.5px;
+  font-weight: 700;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+*, button, input, select, textarea, p, span, div, a, label, table, th, td, li {
+  font-family: "Thmanyah Sans Bold", "Thmanyah Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6, .brand-font {
+  font-family: "Thmanyah Serif Bold", "Thmanyah Serif", "Thmanyah Sans Bold", "Thmanyah Sans", sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.25);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 0.4);
+}
+
+/* Base Interactions */
+button, input, select, textarea {
+  font: inherit;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  min-height: 42px;
+  border: 0;
+  background: transparent;
+  transition: all 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+input, select, textarea {
+  width: 100%;
+  min-height: 44px;
+  padding: 0 1rem;
+  color: var(--text-primary);
+  background: var(--bg-input);
+  border: 1px solid var(--border-subtle);
+  border-radius: 10px;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+  box-shadow: var(--shadow-xs);
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: var(--border-focus);
+  box-shadow: 0 0 0 3px rgba(15, 23, 42, 0.08);
+}
+
+body.theme-dark input:focus,
+body.theme-dark select:focus,
+body.theme-dark textarea:focus {
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.12);
+}
+
+/* ========================================================
+   APPLICATION LAYOUT SHELL
+   ======================================================== */
+.saas-container {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Right Sidebar (RTL) */
+.saas-sidebar {
+  width: 270px;
+  background: var(--bg-sidebar);
+  border-left: 1px solid var(--border-subtle);
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 100;
+  user-select: none;
+  box-shadow: 2px 0 12px rgba(0, 0, 0, 0.02);
+}
+
+.saas-sidebar-header {
+  height: 68px;
+  padding: 0 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.saas-brand-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+  color: var(--text-primary);
+}
+
+.saas-brand-icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background: var(--brand-primary);
+  color: var(--text-inverse);
+  display: grid;
+  place-items: center;
+}
+
+.saas-brand-title {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+}
+
+.saas-brand-title span:first-child {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  font-family: "Thmanyah Serif", sans-serif;
+}
+
+.saas-brand-title span:last-child {
+  font-size: 0.74rem;
+  font-weight: 700;
+  color: var(--brand-accent);
+}
+
+.saas-sidebar-nav {
+  flex: 1;
+  padding: 1.25rem 0.85rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.35rem;
+}
+
+.saas-nav-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.saas-nav-label {
+  padding: 0 0.75rem 0.4rem;
+  font-size: 0.74rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+}
+
+.saas-nav-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.65rem 0.85rem;
+  border-radius: 10px;
+  color: var(--text-secondary);
+  font-weight: 700;
+  font-size: 0.94rem;
+  min-height: 44px;
+  text-align: right;
+  gap: 0.75rem;
+  transition: all 0.15s ease;
+}
+
+.saas-nav-item-content {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.saas-nav-item:hover {
+  color: var(--text-primary);
+  background: var(--bg-hover);
+}
+
+.saas-nav-item.active {
+  color: var(--text-inverse);
+  background: var(--brand-primary);
+  font-weight: 700;
+}
+
+.saas-nav-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  background: var(--bg-hover);
+  color: var(--text-primary);
+}
+
+.saas-nav-item.active .saas-nav-badge {
+  background: rgba(255, 255, 255, 0.25);
+  color: var(--text-inverse);
+}
+
+/* Sidebar Footer */
+.saas-sidebar-footer {
+  padding: 0.95rem;
+  border-top: 1px solid var(--border-subtle);
+  background: var(--bg-hover);
+}
+
+.saas-engine-card {
+  padding: 0.75rem;
+  border-radius: 10px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-xs);
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.saas-engine-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.saas-engine-status {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--brand-emerald);
+}
+
+.saas-ping-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--brand-emerald);
+  animation: pulse 1.8s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(0.85); }
+}
+
+.saas-engine-meta {
+  font-size: 0.76rem;
+  color: var(--text-muted);
+}
+
+/* Main Area */
+.saas-main {
+  flex: 1;
+  margin-right: 270px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.saas-header {
+  height: 68px;
+  background: var(--bg-header);
+  border-bottom: 1px solid var(--border-subtle);
+  backdrop-filter: blur(12px);
+  position: sticky;
+  top: 0;
+  z-index: 90;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.saas-header-left,
+.saas-header-right {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.saas-workspace-pill {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.45rem 0.95rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  box-shadow: var(--shadow-xs);
+}
+
+.saas-workspace-pill:hover {
+  border-color: var(--border-strong);
+  background: var(--bg-hover);
+}
+
+.saas-icon-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  display: grid;
+  place-items: center;
+  box-shadow: var(--shadow-xs);
+}
+
+.saas-icon-btn:hover {
+  color: var(--text-primary);
+  border-color: var(--border-strong);
+  background: var(--bg-hover);
+}
+
+/* Viewport */
+.saas-viewport {
+  padding: 2rem 2.5rem 5rem;
+  flex: 1;
+}
+
+/* Buttons */
+.saas-btn-primary {
+  background: var(--brand-primary);
+  color: var(--text-inverse);
+  font-weight: 700;
+  padding: 0 1.35rem;
+  border-radius: 10px;
+  font-size: 0.92rem;
+  gap: 0.5rem;
+  box-shadow: var(--shadow-xs);
+}
+
+.saas-btn-primary:hover:not(:disabled) {
+  background: var(--brand-primary-hover);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
+}
+
+.saas-btn-secondary {
+  background: var(--bg-surface);
+  color: var(--text-primary);
+  border: 1px solid var(--border-strong);
+  font-weight: 700;
+  padding: 0 1.2rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  gap: 0.5rem;
+  box-shadow: var(--shadow-xs);
+}
+
+.saas-btn-secondary:hover:not(:disabled) {
+  background: var(--bg-hover);
+}
+
+.saas-btn-ghost {
+  background: var(--bg-surface);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-subtle);
+  font-weight: 700;
+  padding: 0 1rem;
+  border-radius: 10px;
+  font-size: 0.88rem;
+  gap: 0.45rem;
+}
+
+.saas-btn-ghost:hover:not(:disabled) {
+  background: var(--bg-hover);
+  color: var(--text-primary);
+}
+
+/* Page Headers */
+.saas-page-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.saas-page-title-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.saas-page-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.82rem;
+  font-weight: 800;
+  color: var(--text-muted);
+}
+
+.saas-page-title {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+.saas-page-subtitle {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 1rem;
+  font-weight: 700;
+  max-width: 720px;
+  line-height: 1.6;
+}
+
+.saas-page-actions {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+/* KPI Cards */
+.saas-kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.15rem;
+  margin-bottom: 1.75rem;
+}
+
+.saas-kpi-card {
+  padding: 1.4rem;
+  border-radius: 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  transition: all 0.2s ease;
+}
+
+.saas-kpi-card:hover {
+  border-color: var(--border-strong);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.saas-kpi-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.saas-kpi-label {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+.saas-kpi-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: var(--bg-hover);
+  display: grid;
+  place-items: center;
+  color: var(--text-primary);
+}
+
+.saas-kpi-value-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.saas-kpi-value {
+  font-size: 1.65rem;
+  font-weight: 900;
+  color: var(--text-primary);
+  font-family: "Thmanyah Serif", "Thmanyah Sans", sans-serif;
+}
+
+.saas-kpi-trend {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.78rem;
+  font-weight: 800;
+  padding: 0.2rem 0.5rem;
+  border-radius: 6px;
+}
+
+.saas-kpi-trend.positive {
+  background: rgba(16, 185, 129, 0.12);
+  color: var(--brand-emerald);
+}
+
+.saas-kpi-trend.neutral {
+  background: rgba(37, 99, 235, 0.12);
+  color: var(--brand-blue);
+}
+
+/* Panels */
+.saas-panel {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 18px;
+  padding: 1.75rem;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 1.5rem;
+}
+
+.saas-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.35rem;
+  gap: 1rem;
+}
+
+.saas-panel-title {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.saas-panel-desc {
+  margin: 0.3rem 0 0;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+/* Tables */
+.saas-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  border-radius: 12px;
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-surface);
+}
+
+.saas-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: right;
+  font-size: 0.94rem;
+}
+
+.saas-table th {
+  padding: 0.95rem 1.25rem;
+  color: var(--text-muted);
+  font-weight: 800;
+  font-size: 0.84rem;
+  text-transform: uppercase;
+  background: var(--bg-hover);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.saas-table td {
+  padding: 1.05rem 1.25rem;
+  border-bottom: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.saas-table tr:hover td {
+  background: var(--bg-hover);
+}
+
+/* Badges */
+.saas-status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.saas-status-pill.success {
+  background: rgba(16, 185, 129, 0.12);
+  color: var(--brand-emerald);
+}
+
+.saas-status-pill.info {
+  background: rgba(37, 99, 235, 0.12);
+  color: var(--brand-blue);
+}
+
+.saas-status-pill.warning {
+  background: rgba(217, 119, 6, 0.12);
+  color: var(--brand-accent);
+}
+
+.saas-status-pill.danger {
+  background: rgba(225, 29, 72, 0.12);
+  color: var(--brand-rose);
+}
+
+/* Chat Pane */
+.saas-chat-pane {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  min-height: 560px;
+  box-shadow: var(--shadow-sm);
+}
+
+.saas-chat-header {
+  padding: 1.2rem 1.6rem;
+  border-bottom: 1px solid var(--border-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.saas-chat-scroll {
+  flex: 1;
+  padding: 1.6rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.saas-msg-row {
+  display: flex;
+  gap: 1rem;
+  max-width: 85%;
+}
+
+.saas-msg-row.user {
+  margin-right: auto;
+  flex-direction: row-reverse;
+}
+
+.saas-msg-row.assistant {
+  margin-left: auto;
+}
+
+.saas-msg-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+
+.saas-msg-avatar.user {
+  background: var(--bg-hover);
+  color: var(--text-primary);
+  border: 1px solid var(--border-subtle);
+}
+
+.saas-msg-avatar.assistant {
+  background: var(--brand-primary);
+  color: var(--text-inverse);
+}
+
+.saas-msg-bubble {
+  padding: 1rem 1.35rem;
+  border-radius: 18px;
+  font-size: 0.98rem;
+  line-height: 1.85;
+}
+
+.saas-msg-bubble.user {
+  background: var(--brand-primary);
+  color: var(--text-inverse);
+  border-top-right-radius: 4px;
+}
+
+.saas-msg-bubble.assistant {
+  background: var(--bg-hover);
+  color: var(--text-primary);
+  border: 1px solid var(--border-subtle);
+  border-top-left-radius: 4px;
+}
+
+.saas-chat-footer {
+  padding: 1.2rem 1.6rem;
+  border-top: 1px solid var(--border-subtle);
+  background: var(--bg-hover);
+}
+
+.saas-input-box {
+  display: flex;
+  gap: 0.75rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-strong);
+  border-radius: 14px;
+  padding: 0.45rem;
+  box-shadow: var(--shadow-xs);
+}
+
+.saas-input-box:focus-within {
+  border-color: var(--border-focus);
+}
+
+.saas-input-box input {
+  flex: 1;
+  background: transparent;
+  border: 0;
+  color: var(--text-primary);
+  padding: 0 0.85rem;
+  font-size: 0.96rem;
+  box-shadow: none;
+}
+
+/* Toast */
+.saas-toast {
+  position: fixed;
+  bottom: 2rem;
+  left: 2rem;
+  padding: 0.95rem 1.5rem;
+  border-radius: 12px;
+  background: var(--brand-primary);
+  color: var(--text-inverse);
+  box-shadow: var(--shadow-lg);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.94rem;
+  font-weight: 700;
+  z-index: 999;
+}
+
+/* Empty State */
+.saas-empty-state {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 3rem 1.5rem;
+  gap: 0.75rem;
+}
+
+.saas-empty-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  background: var(--bg-hover);
+  display: grid;
+  place-items: center;
+  color: var(--text-muted);
+}
+
+.saas-empty-title {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+.saas-empty-desc {
+  margin: 0;
+  max-width: 440px;
+  color: var(--text-muted);
+  font-size: 0.94rem;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+/* Skeleton */
+.saas-skeleton {
+  background: linear-gradient(90deg, var(--bg-hover) 25%, var(--border-subtle) 50%, var(--bg-hover) 75%);
+  background-size: 200% 100%;
+  animation: saas-shimmer 1.5s infinite;
+  border-radius: 8px;
+}
+
+/* Provider Cards */
+.saas-provider-card {
+  padding: 1.5rem;
+  border-radius: 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  display: flex;
+  flex-direction: column;
+  gap: 1.15rem;
+  position: relative;
+  transition: all 0.2s ease;
+  box-shadow: var(--shadow-sm);
+}
+
+.saas-provider-card.active {
+  border-color: var(--brand-emerald);
+  box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.2), var(--shadow-md);
+}
+
+.saas-provider-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.saas-provider-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.saas-provider-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  background: var(--bg-hover);
+  display: grid;
+  place-items: center;
+  color: var(--brand-primary);
+}
+
+.saas-provider-card.active .saas-provider-icon {
+  background: rgba(16, 185, 129, 0.12);
+  color: var(--brand-emerald);
+}
+
+.saas-badge-active {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: rgba(16, 185, 129, 0.15);
+  color: var(--brand-emerald);
+  padding: 0.3rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+@keyframes saas-shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Responsive */
+@media (max-width: 1080px) {
+  .saas-sidebar {
+    width: 76px;
+  }
+  .saas-brand-title,
+  .saas-nav-label,
+  .saas-nav-item span,
+  .saas-sidebar-footer,
+  .saas-nav-badge {
+    display: none;
+  }
+  .saas-nav-item {
+    justify-content: center;
+    padding: 0.75rem;
+  }
+  .saas-main {
+    margin-right: 76px;
+  }
+  .saas-kpi-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .saas-sidebar {
+    display: none;
+  }
+  .saas-main {
+    margin-right: 0;
+  }
+  .saas-kpi-grid {
+    grid-template-columns: 1fr;
+  }
+  .saas-header {
+    padding: 0 1rem;
+  }
+  .saas-viewport {
+    padding: 1.25rem 1rem;
+  }
+}
+
+/* ========================================================
+   COMMAND PALETTE (CTRL + K) STYLES
+   ======================================================== */
+.saas-search-trigger {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  color: var(--text-muted);
+  padding: 0.45rem 0.9rem;
+  border-radius: var(--radius-md);
+  font-family: inherit;
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.saas-search-trigger:hover {
+  border-color: var(--border-hover);
+  color: var(--text-primary);
+  background: var(--bg-hover);
+}
+
+.saas-kbd {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 0.15rem 0.45rem;
+  font-size: 0.72rem;
+  font-family: monospace;
+  font-weight: 800;
+  color: var(--text-muted);
+  letter-spacing: 0.05em;
+}
+
+.saas-command-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 9999;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 12vh;
+  animation: saas-fade-in 0.15s ease-out;
+}
+
+.saas-command-modal {
+  width: 100%;
+  max-width: 620px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xl);
+  box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  animation: saas-scale-up 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes saas-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes saas-scale-up {
+  from { opacity: 0; transform: scale(0.96) translateY(-10px); }
+  to { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+.saas-command-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.9rem 1.25rem;
+  border-bottom: 1px solid var(--border-color);
+  background: var(--bg-card);
+}
+
+.saas-command-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--text-primary);
+  font-family: inherit;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.saas-command-input::placeholder {
+  color: var(--text-muted);
+}
+
+.saas-command-list {
+  max-height: 380px;
+  overflow-y: auto;
+  padding: 0.5rem;
+}
+
+.saas-command-group-title {
+  font-size: 0.74rem;
+  font-weight: 800;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.5rem 0.75rem 0.25rem;
+}
+
+.saas-command-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.65rem 0.85rem;
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.saas-command-item:hover,
+.saas-command-item.selected {
+  background: var(--bg-hover);
+  color: var(--text-primary);
+}
+
+.saas-command-item-left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.saas-command-item-badge {
+  font-size: 0.72rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 999px;
+  background: var(--bg-subtle);
+  color: var(--text-muted);
+  border: 1px solid var(--border-color);
+}
+
+.saas-command-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.65rem 1.25rem;
+  border-top: 1px solid var(--border-color);
+  background: var(--bg-subtle);
+  font-size: 0.76rem;
+  color: var(--text-muted);
+}
+
+.saas-command-shortcuts {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+/* ========================================================
+   LIVE AGENT FLOW VISUALIZER STYLES
+   ======================================================== */
+.agent-flow-box {
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.agent-flow-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.85rem;
+}
+
+.agent-flow-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.86rem;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+.agent-flow-timer {
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: var(--brand-emerald);
+  background: rgba(16, 185, 129, 0.12);
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+}
+
+.agent-flow-steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+  position: relative;
+}
+
+.agent-flow-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0.6rem 0.4rem;
+  border-radius: var(--radius-md);
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  transition: all var(--transition-fast);
+}
+
+.agent-flow-step.active {
+  border-color: var(--brand-blue);
+  background: rgba(37, 99, 235, 0.08);
+  box-shadow: 0 0 15px rgba(37, 99, 235, 0.2);
+  animation: flow-pulse 1.5s infinite;
+}
+
+.agent-flow-step.completed {
+  border-color: var(--brand-emerald);
+  background: rgba(16, 185, 129, 0.06);
+}
+
+@keyframes flow-pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.02); }
+  100% { transform: scale(1); }
+}
+
+.agent-flow-step-num {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.72rem;
+  font-weight: 900;
+  margin-bottom: 0.35rem;
+  background: var(--bg-subtle);
+  color: var(--text-muted);
+}
+
+.agent-flow-step.active .agent-flow-step-num {
+  background: var(--brand-blue);
+  color: #fff;
+}
+
+.agent-flow-step.completed .agent-flow-step-num {
+  background: var(--brand-emerald);
+  color: #fff;
+}
+
+.agent-flow-step-label {
+  font-size: 0.74rem;
+  font-weight: 800;
+  color: var(--text-secondary);
+  line-height: 1.3;
+}
+
+/* ========================================================
+   INTERACTIVE DATA CHARTS (FINANCIAL & LOGISTICS)
+   ======================================================== */
+.chart-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 1.25rem;
+}
+
+.chart-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+
+.chart-card-title {
+  font-size: 0.98rem;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.chart-svg-container {
+  width: 100%;
+  height: 200px;
+}
+
+.chart-bar-rect {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.chart-bar-rect:hover {
+  filter: brightness(1.2);
+  transform: translateY(-2px);
+}
+
+.supplier-progress-row {
+  margin-bottom: 0.85rem;
+}
+
+.supplier-progress-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  font-weight: 800;
+  margin-bottom: 0.35rem;
+}
+
+.supplier-progress-track {
+  width: 100%;
+  height: 10px;
+  background: var(--bg-subtle);
+  border-radius: 999px;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+}
+
+.supplier-progress-fill {
+  height: 100%;
+  border-radius: 999px;
+  transition: width 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ========================================================
+   PRINTABLE WAYBILL & EXECUTIVE REPORT MODALS
+   ======================================================== */
+.print-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(8px);
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.print-modal-container {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xl);
+  max-width: 680px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+}
+
+.print-modal-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+  background: var(--bg-subtle);
+}
+
+.waybill-sheet {
+  padding: 2rem;
+  background: #fff;
+  color: #111;
+  font-family: "Thmanyah Sans Bold", sans-serif;
+  border: 2px dashed #ccc;
+  margin: 1.5rem;
+  border-radius: 8px;
+}
+
+.waybill-sheet * {
+  color: #111 !important;
+}
+
+.waybill-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #000;
+  padding-bottom: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.waybill-barcode {
+  letter-spacing: 4px;
+  font-family: monospace;
+  font-weight: 900;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  background: #f3f4f6;
+  border: 1px solid #000;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
+.waybill-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.waybill-box {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0.85rem;
+  background: #fafafa;
+}
+
+.waybill-box-title {
+  font-size: 0.8rem;
+  color: #666 !important;
+  font-weight: 800;
+  margin-bottom: 0.35rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.25rem;
+}
+
+.waybill-qr-box {
+  width: 90px;
+  height: 90px;
+  border: 2px solid #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  font-weight: 900;
+  background: #fff;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .waybill-sheet, .waybill-sheet * {
+    visibility: visible;
+  }
+  .waybill-sheet {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 20mm;
+    border: none;
+  }
+}
+
+/* ========================================================
+   MOBILE BOTTOM NAVIGATION BAR
+   ======================================================== */
+.saas-bottom-nav {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .saas-bottom-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 64px;
+    background: var(--bg-card);
+    border-top: 1px solid var(--border-color);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    z-index: 1000;
+    padding: 0 0.5rem;
+  }
+
+  .saas-bottom-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    color: var(--text-muted);
+    font-size: 0.72rem;
+    font-weight: 800;
+    background: none;
+    border: none;
+    padding: 0.35rem 0.5rem;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    flex: 1;
+  }
+
+  .saas-bottom-item.active {
+    color: var(--brand-blue);
+  }
+
+  .saas-main {
+    padding-bottom: 74px;
+  }
+}

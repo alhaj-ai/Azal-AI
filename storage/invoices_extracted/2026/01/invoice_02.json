@@ -1,0 +1,22 @@
+{
+  "vendor_name": "مزارع بني يافع للبن الأخضر",
+  "invoice_date": "2026-01-18",
+  "subtotal": 1720000.0,
+  "vat_amount": 0.0,
+  "total": 1720000.0,
+  "line_items": [
+    {
+      "description": "بن يافعي أخضر ممتاز محصول جديد قطاف يدوي (شوالات)",
+      "quantity": 4,
+      "unit_price": 430000.0,
+      "total": 1720000.0
+    }
+  ],
+  "validation": {
+    "valid": true,
+    "issues": [],
+    "calculated_rate": 0.0,
+    "expected_total": 1720000.0
+  },
+  "source_invoice_id": "invoice_02"
+}

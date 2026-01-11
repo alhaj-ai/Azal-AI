@@ -1,0 +1,88 @@
+{
+  "active_provider": "lm_studio",
+  "temperature": 0.7,
+  "max_tokens": 1024,
+  "providers": {
+    "lm_studio": {
+      "name": "LM Studio (محلي - Local GPU)",
+      "base_url": "http://127.0.0.1:1234/v1",
+      "api_key": "lm-studio",
+      "model": "gemma-4-e2b-it",
+      "is_local": true,
+      "enabled": true,
+      "description": "تشغيل أوفلاين فائق السرعة عبر كرت الشاشة المحلي دون إنترنت ودون تكاليف."
+    },
+    "ollama": {
+      "name": "Ollama (محلي)",
+      "base_url": "http://127.0.0.1:11434/v1",
+      "api_key": "ollama",
+      "model": "llama3.2",
+      "is_local": true,
+      "enabled": false,
+      "description": "خادم محلي لتشغيل نماذج Llama و Qwen مفتوحة المصدر."
+    },
+    "openai": {
+      "name": "OpenAI (سحابي - ChatGPT)",
+      "base_url": "https://api.openai.com/v1",
+      "api_key": "",
+      "model": "gpt-4o-mini",
+      "is_local": false,
+      "enabled": false,
+      "description": "المزود السحابي الرسمي لـ OpenAI (GPT-4o, GPT-4o-mini, o3-mini)."
+    },
+    "gemini": {
+      "name": "Google Gemini (سحابي)",
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "api_key": "",
+      "model": "gemini-2.5-flash",
+      "is_local": false,
+      "enabled": false,
+      "description": "نماذج جوجل المتطورة فائقة السرعة مع نافذة سياق ضخمة (Gemini 2.5 Flash / Pro)."
+    },
+    "deepseek": {
+      "name": "DeepSeek (سحابي)",
+      "base_url": "https://api.deepseek.com/v1",
+      "api_key": "",
+      "model": "deepseek-chat",
+      "is_local": false,
+      "enabled": false,
+      "description": "نماذج DeepSeek V3 و Reasoner R1 عالية الذكاء ومنخفضة التكلفة."
+    },
+    "groq": {
+      "name": "Groq Cloud (سحابي فائق السرعة LPU)",
+      "base_url": "https://api.groq.com/openai/v1",
+      "api_key": "",
+      "model": "llama-3.3-70b-versatile",
+      "is_local": false,
+      "enabled": false,
+      "description": "أسرع استجابة سحابية في العالم لمعالجة محادثات العملاء اللحظية."
+    },
+    "openrouter": {
+      "name": "OpenRouter (بوابة موحدة شاملة)",
+      "base_url": "https://openrouter.ai/api/v1",
+      "api_key": "",
+      "model": "anthropic/claude-3.5-sonnet",
+      "is_local": false,
+      "enabled": false,
+      "description": "بوابة واحدة بمفتاح API موحد للوصول لـ Claude 3.5 و GPT-4 و Llama."
+    },
+    "mistral": {
+      "name": "Mistral AI (سحابي)",
+      "base_url": "https://api.mistral.ai/v1",
+      "api_key": "",
+      "model": "mistral-large-latest",
+      "is_local": false,
+      "enabled": false,
+      "description": "النماذج الأوروبية الرائدة متعددة اللغات لدقة الفهم والاستخراج."
+    },
+    "custom": {
+      "name": "مزود مخصص (OpenAI-Compatible / vLLM)",
+      "base_url": "http://127.0.0.1:8080/v1",
+      "api_key": "",
+      "model": "default-model",
+      "is_local": true,
+      "enabled": false,
+      "description": "أي خادم خاص متوافق مع معايير OpenAI (vLLM, TGI, LocalAI)."
+    }
+  }
+}

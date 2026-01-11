@@ -1,0 +1,22 @@
+{
+  "invoice_id": "AZAL-2026-01-01",
+  "vendor_name": "مناحل وادي دوعن للعسل الملكي",
+  "vendor_address": "المركز الرئيسي - صنعاء / حضرموت",
+  "invoice_date": "2026-01-13",
+  "subtotal": 2850000.0,
+  "vat_amount": 0.0,
+  "total_amount": 2850000.0,
+  "currency": "ر.ي",
+  "line_items": [
+    {
+      "description": "توريد عسل دوعني وسدر ملكي معبأ ومختبر",
+      "quantity": 50,
+      "unit_price": 57000.0,
+      "total": 2850000.0
+    }
+  ],
+  "vat_validation": {
+    "valid": true,
+    "issues": []
+  }
+}

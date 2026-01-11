@@ -1,0 +1,28 @@
+{
+  "vendor_name": "مناحل وادي دوعن للعسل الملكي",
+  "invoice_date": "2026-01-12",
+  "subtotal": 2850000.0,
+  "vat_amount": 0.0,
+  "total": 2850000.0,
+  "line_items": [
+    {
+      "description": "عسل دوعني سدر ملكي فاخر معبأ (كرتون 24 عبوة)",
+      "quantity": 10,
+      "unit_price": 200000.0,
+      "total": 2000000.0
+    },
+    {
+      "description": "عسل سمر طبيعي وادي حضرموت عبوات 1 كجم",
+      "quantity": 17,
+      "unit_price": 50000.0,
+      "total": 850000.0
+    }
+  ],
+  "validation": {
+    "valid": true,
+    "issues": [],
+    "calculated_rate": 0.0,
+    "expected_total": 2850000.0
+  },
+  "source_invoice_id": "invoice_06"
+}

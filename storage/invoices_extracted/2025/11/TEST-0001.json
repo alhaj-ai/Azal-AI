@@ -1,0 +1,17 @@
+{
+  "invoice_id": "TEST-0001",
+  "vendor_name": "مناحل وادي دوعن",
+  "vendor_tax_id": "700102030",
+  "currency": "YER",
+  "invoice_date": "2025-11-15",
+  "subtotal": 100.0,
+  "vat_amount": 0.0,
+  "total": 100.0,
+  "line_items": [
+    {
+      "description": "عسل دوعني سدر ملكي",
+      "quantity": 1,
+      "unit_price": 100.0
+    }
+  ]
+}
